@@ -8,3 +8,6 @@
 * Enable the developer mode at top right.
 * Click Load unpacked extension... and select the source code folder.
 *Boom!
+
+##Credits
+Thanks to [Gantt](https://github.com/gantt/downloadyoutube) for writing this aweosome script
