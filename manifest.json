@@ -1,0 +1,22 @@
+{
+    "name": "Youtube-dl",
+    "version": "0.2",
+    "icons": {
+        "16": "/img/icons/icon_16.png",
+        "48": "/img/icons/icon_48.png",
+        "128": "/img/icons/icon_128.png"
+    },
+
+    "description":"download youtube videos easily",
+
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/*"],
+            "js": [
+                    "/js/content_script.js"
+                ]
+        }
+    ],
+
+    "manifest_version": 2
+}
